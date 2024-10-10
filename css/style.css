@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-
+/* navbar start */
 .container {
   margin: 0 135px;
 }
@@ -23,3 +23,78 @@ nav ul li a {
 .home {
   color: #ff5400;
 }
+
+/* navbar end */
+
+/* banner start */
+
+.banner {
+  background: #0000004e url(/image/banner.png);
+  background-blend-mode: overlay;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  position: relative;
+  border-radius: 16px;
+  margin-top: 88px;
+}
+
+.banner h1 {
+  font-size: 64px;
+  font-weight: 800px;
+  margin-bottom: 24px;
+}
+.bg-1 {
+  background-color: #ffffff4d;
+  width: 800px;
+  height: 84px;
+  padding: 16px 16px;
+  margin-top: 48px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+.bg-1 input {
+  height: 52px;
+  width: 174px;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: none;
+}
+.bg-1 input:focus-visible {
+  border: 0;
+  outline: 0;
+}
+
+.bg-1 select {
+  height: 52px;
+  width: 174px;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.btn {
+  background-color: #ff5400;
+  color: #fff;
+  height: 52px;
+  width: 174px;
+  padding: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: none;
+}
+.btn i {
+  margin-right: 8px;
+}
+/* banner end  */
